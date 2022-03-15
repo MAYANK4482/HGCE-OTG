@@ -1,0 +1,6 @@
+framework module Pods_HGCE_OTGUITests {
+  umbrella header "Pods-HGCE OTGUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
