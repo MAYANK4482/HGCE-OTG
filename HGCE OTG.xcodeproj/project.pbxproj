@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387C57FED56B800DDBE54989 /* Pods_HGCE_OTGTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354552622FCDF4F5B1BB5A20 /* Pods_HGCE_OTGTests.framework */; };
+		470B5E2122C2034F0000DBEC /* libViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470B5E2022C2034F0000DBEC /* libViewController.swift */; };
+		470B5E2322C20B050000DBEC /* canViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470B5E2222C20B050000DBEC /* canViewController.swift */; };
+		470B5E2522C20CC90000DBEC /* hosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470B5E2422C20CC90000DBEC /* hosViewController.swift */; };
+		470B5E2722C20CD50000DBEC /* conViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470B5E2622C20CD50000DBEC /* conViewController.swift */; };
+		470B5E2E22C21C010000DBEC /* videoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470B5E2D22C21C010000DBEC /* videoViewController.swift */; };
+		470B5E3022C21C0B0000DBEC /* websiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470B5E2F22C21C0B0000DBEC /* websiteViewController.swift */; };
+		472053DD22BE8B9C00B780BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472053DC22BE8B9C00B780BF /* AppDelegate.swift */; };
+		472053DF22BE8B9C00B780BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472053DE22BE8B9C00B780BF /* ViewController.swift */; };
+		472053E222BE8B9C00B780BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472053E022BE8B9C00B780BF /* Main.storyboard */; };
+		472053E522BE8B9C00B780BF /* HGCE_OTG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 472053E322BE8B9C00B780BF /* HGCE_OTG.xcdatamodeld */; };
+		472053E722BE8B9D00B780BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472053E622BE8B9D00B780BF /* Assets.xcassets */; };
+		472053EA22BE8B9D00B780BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472053E822BE8B9D00B780BF /* LaunchScreen.storyboard */; };
+		472053F522BE8B9D00B780BF /* HGCE_OTGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472053F422BE8B9D00B780BF /* HGCE_OTGTests.swift */; };
+		4720540022BE8B9D00B780BF /* HGCE_OTGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472053FF22BE8B9D00B780BF /* HGCE_OTGUITests.swift */; };
+		4720540E22BE8CBD00B780BF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4720540D22BE8CBD00B780BF /* BaseViewController.swift */; };
+		4720541022BE8D5F00B780BF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4720540F22BE8D5F00B780BF /* MenuViewController.swift */; };
+		4720541222BE8E5C00B780BF /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4720541122BE8E5C00B780BF /* menuTableViewCell.swift */; };
+		474B26AF22BEAC6900280F9C /* AboutcollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B26AE22BEAC6900280F9C /* AboutcollegeViewController.swift */; };
+		47A7857222C334DA0024DF28 /* messageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7857122C334DA0024DF28 /* messageViewController.swift */; };
+		47A7857422C334E80024DF28 /* messageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7857322C334E80024DF28 /* messageTableViewCell.swift */; };
+		47A7857822C337380024DF28 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7857722C337380024DF28 /* imageViewController.swift */; };
+		47A7857A22C337A00024DF28 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7857922C337A00024DF28 /* CollectionViewCell.swift */; };
+		47E9827B22BFA66900A53448 /* deparmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E9827A22BFA66900A53448 /* deparmentViewController.swift */; };
+		47E9827D22BFA67500A53448 /* aboutdepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E9827C22BFA67500A53448 /* aboutdepartmentViewController.swift */; };
+		47E9827F22BFA68600A53448 /* departTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E9827E22BFA68600A53448 /* departTableViewCell.swift */; };
+		91A5760B419C390B8826DB2E /* Pods_HGCE_OTGUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCC428CA8364E0967E08F3F /* Pods_HGCE_OTGUITests.framework */; };
+		B6EDB25174B98CE7F4145A45 /* Pods_HGCE_OTG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0263AF617EC43666FA1B6FA2 /* Pods_HGCE_OTG.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		472053F122BE8B9D00B780BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 472053D122BE8B9C00B780BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472053D822BE8B9C00B780BF;
+			remoteInfo = "HGCE OTG";
+		};
+		472053FC22BE8B9D00B780BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 472053D122BE8B9C00B780BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472053D822BE8B9C00B780BF;
+			remoteInfo = "HGCE OTG";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0263AF617EC43666FA1B6FA2 /* Pods_HGCE_OTG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGCE_OTG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2363763947C7E30536E3E0E7 /* Pods-HGCE OTGUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCE OTGUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCE OTGUITests/Pods-HGCE OTGUITests.release.xcconfig"; sourceTree = "<group>"; };
+		354552622FCDF4F5B1BB5A20 /* Pods_HGCE_OTGTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGCE_OTGTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BC2B53B83D826A7117A0AD /* Pods-HGCE OTGUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCE OTGUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCE OTGUITests/Pods-HGCE OTGUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		470B5E2022C2034F0000DBEC /* libViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libViewController.swift; sourceTree = "<group>"; };
+		470B5E2222C20B050000DBEC /* canViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canViewController.swift; sourceTree = "<group>"; };
+		470B5E2422C20CC90000DBEC /* hosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hosViewController.swift; sourceTree = "<group>"; };
+		470B5E2622C20CD50000DBEC /* conViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conViewController.swift; sourceTree = "<group>"; };
+		470B5E2D22C21C010000DBEC /* videoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoViewController.swift; sourceTree = "<group>"; };
+		470B5E2F22C21C0B0000DBEC /* websiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = websiteViewController.swift; sourceTree = "<group>"; };
+		472053D922BE8B9C00B780BF /* HGCE OTG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HGCE OTG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472053DC22BE8B9C00B780BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		472053DE22BE8B9C00B780BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		472053E122BE8B9C00B780BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472053E422BE8B9C00B780BF /* HGCE_OTG.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HGCE_OTG.xcdatamodel; sourceTree = "<group>"; };
+		472053E622BE8B9D00B780BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472053E922BE8B9D00B780BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472053EB22BE8B9D00B780BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472053F022BE8B9D00B780BF /* HGCE OTGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HGCE OTGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472053F422BE8B9D00B780BF /* HGCE_OTGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGCE_OTGTests.swift; sourceTree = "<group>"; };
+		472053F622BE8B9D00B780BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472053FB22BE8B9D00B780BF /* HGCE OTGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HGCE OTGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472053FF22BE8B9D00B780BF /* HGCE_OTGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGCE_OTGUITests.swift; sourceTree = "<group>"; };
+		4720540122BE8B9D00B780BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4720540D22BE8CBD00B780BF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4720540F22BE8D5F00B780BF /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4720541122BE8E5C00B780BF /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewCell.swift; sourceTree = "<group>"; };
+		474B26AE22BEAC6900280F9C /* AboutcollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutcollegeViewController.swift; sourceTree = "<group>"; };
+		47A7857122C334DA0024DF28 /* messageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageViewController.swift; sourceTree = "<group>"; };
+		47A7857322C334E80024DF28 /* messageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageTableViewCell.swift; sourceTree = "<group>"; };
+		47A7857722C337380024DF28 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
+		47A7857922C337A00024DF28 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		47E9827A22BFA66900A53448 /* deparmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deparmentViewController.swift; sourceTree = "<group>"; };
+		47E9827C22BFA67500A53448 /* aboutdepartmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutdepartmentViewController.swift; sourceTree = "<group>"; };
+		47E9827E22BFA68600A53448 /* departTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = departTableViewCell.swift; sourceTree = "<group>"; };
+		4DCC428CA8364E0967E08F3F /* Pods_HGCE_OTGUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGCE_OTGUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		597A3B2B4CDDA729EBB7C7CB /* Pods-HGCE OTGTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCE OTGTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCE OTGTests/Pods-HGCE OTGTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACFD8A8069FCE65BF4B51702 /* Pods-HGCE OTG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCE OTG.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCE OTG/Pods-HGCE OTG.release.xcconfig"; sourceTree = "<group>"; };
+		C754D886D2D2FCB2DD091153 /* Pods-HGCE OTGTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCE OTGTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCE OTGTests/Pods-HGCE OTGTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4755A28D45D1A790DB60FDC /* Pods-HGCE OTG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCE OTG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCE OTG/Pods-HGCE OTG.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		472053D622BE8B9C00B780BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EDB25174B98CE7F4145A45 /* Pods_HGCE_OTG.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472053ED22BE8B9D00B780BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387C57FED56B800DDBE54989 /* Pods_HGCE_OTGTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472053F822BE8B9D00B780BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A5760B419C390B8826DB2E /* Pods_HGCE_OTGUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		472053D022BE8B9C00B780BF = {
+			isa = PBXGroup;
+			children = (
+				472053DB22BE8B9C00B780BF /* HGCE OTG */,
+				472053F322BE8B9D00B780BF /* HGCE OTGTests */,
+				472053FE22BE8B9D00B780BF /* HGCE OTGUITests */,
+				472053DA22BE8B9C00B780BF /* Products */,
+				6F716677F67ED2FE25409FFD /* Pods */,
+				5CA1AF779CB038086C708DE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		472053DA22BE8B9C00B780BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				472053D922BE8B9C00B780BF /* HGCE OTG.app */,
+				472053F022BE8B9D00B780BF /* HGCE OTGTests.xctest */,
+				472053FB22BE8B9D00B780BF /* HGCE OTGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		472053DB22BE8B9C00B780BF /* HGCE OTG */ = {
+			isa = PBXGroup;
+			children = (
+				4720540D22BE8CBD00B780BF /* BaseViewController.swift */,
+				472053DC22BE8B9C00B780BF /* AppDelegate.swift */,
+				472053DE22BE8B9C00B780BF /* ViewController.swift */,
+				4720540F22BE8D5F00B780BF /* MenuViewController.swift */,
+				4720541122BE8E5C00B780BF /* menuTableViewCell.swift */,
+				474B26AE22BEAC6900280F9C /* AboutcollegeViewController.swift */,
+				47E9827A22BFA66900A53448 /* deparmentViewController.swift */,
+				47E9827E22BFA68600A53448 /* departTableViewCell.swift */,
+				47E9827C22BFA67500A53448 /* aboutdepartmentViewController.swift */,
+				470B5E2022C2034F0000DBEC /* libViewController.swift */,
+				470B5E2222C20B050000DBEC /* canViewController.swift */,
+				470B5E2422C20CC90000DBEC /* hosViewController.swift */,
+				470B5E2622C20CD50000DBEC /* conViewController.swift */,
+				470B5E2D22C21C010000DBEC /* videoViewController.swift */,
+				470B5E2F22C21C0B0000DBEC /* websiteViewController.swift */,
+				47A7857122C334DA0024DF28 /* messageViewController.swift */,
+				47A7857322C334E80024DF28 /* messageTableViewCell.swift */,
+				47A7857722C337380024DF28 /* imageViewController.swift */,
+				47A7857922C337A00024DF28 /* CollectionViewCell.swift */,
+				472053E022BE8B9C00B780BF /* Main.storyboard */,
+				472053E622BE8B9D00B780BF /* Assets.xcassets */,
+				472053E822BE8B9D00B780BF /* LaunchScreen.storyboard */,
+				472053EB22BE8B9D00B780BF /* Info.plist */,
+				472053E322BE8B9C00B780BF /* HGCE_OTG.xcdatamodeld */,
+			);
+			path = "HGCE OTG";
+			sourceTree = "<group>";
+		};
+		472053F322BE8B9D00B780BF /* HGCE OTGTests */ = {
+			isa = PBXGroup;
+			children = (
+				472053F422BE8B9D00B780BF /* HGCE_OTGTests.swift */,
+				472053F622BE8B9D00B780BF /* Info.plist */,
+			);
+			path = "HGCE OTGTests";
+			sourceTree = "<group>";
+		};
+		472053FE22BE8B9D00B780BF /* HGCE OTGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				472053FF22BE8B9D00B780BF /* HGCE_OTGUITests.swift */,
+				4720540122BE8B9D00B780BF /* Info.plist */,
+			);
+			path = "HGCE OTGUITests";
+			sourceTree = "<group>";
+		};
+		5CA1AF779CB038086C708DE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0263AF617EC43666FA1B6FA2 /* Pods_HGCE_OTG.framework */,
+				354552622FCDF4F5B1BB5A20 /* Pods_HGCE_OTGTests.framework */,
+				4DCC428CA8364E0967E08F3F /* Pods_HGCE_OTGUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F716677F67ED2FE25409FFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4755A28D45D1A790DB60FDC /* Pods-HGCE OTG.debug.xcconfig */,
+				ACFD8A8069FCE65BF4B51702 /* Pods-HGCE OTG.release.xcconfig */,
+				C754D886D2D2FCB2DD091153 /* Pods-HGCE OTGTests.debug.xcconfig */,
+				597A3B2B4CDDA729EBB7C7CB /* Pods-HGCE OTGTests.release.xcconfig */,
+				38BC2B53B83D826A7117A0AD /* Pods-HGCE OTGUITests.debug.xcconfig */,
+				2363763947C7E30536E3E0E7 /* Pods-HGCE OTGUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		472053D822BE8B9C00B780BF /* HGCE OTG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4720540422BE8B9D00B780BF /* Build configuration list for PBXNativeTarget "HGCE OTG" */;
+			buildPhases = (
+				85C632C96FBF793E5D7B933C /* [CP] Check Pods Manifest.lock */,
+				472053D522BE8B9C00B780BF /* Sources */,
+				472053D622BE8B9C00B780BF /* Frameworks */,
+				472053D722BE8B9C00B780BF /* Resources */,
+				5C6AC034E3D50CB8894D9812 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HGCE OTG";
+			productName = "HGCE OTG";
+			productReference = 472053D922BE8B9C00B780BF /* HGCE OTG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472053EF22BE8B9D00B780BF /* HGCE OTGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4720540722BE8B9D00B780BF /* Build configuration list for PBXNativeTarget "HGCE OTGTests" */;
+			buildPhases = (
+				760352ED02709351272E26E5 /* [CP] Check Pods Manifest.lock */,
+				472053EC22BE8B9D00B780BF /* Sources */,
+				472053ED22BE8B9D00B780BF /* Frameworks */,
+				472053EE22BE8B9D00B780BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				472053F222BE8B9D00B780BF /* PBXTargetDependency */,
+			);
+			name = "HGCE OTGTests";
+			productName = "HGCE OTGTests";
+			productReference = 472053F022BE8B9D00B780BF /* HGCE OTGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		472053FA22BE8B9D00B780BF /* HGCE OTGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4720540A22BE8B9D00B780BF /* Build configuration list for PBXNativeTarget "HGCE OTGUITests" */;
+			buildPhases = (
+				B6CA946E28330F36988884E8 /* [CP] Check Pods Manifest.lock */,
+				472053F722BE8B9D00B780BF /* Sources */,
+				472053F822BE8B9D00B780BF /* Frameworks */,
+				472053F922BE8B9D00B780BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				472053FD22BE8B9D00B780BF /* PBXTargetDependency */,
+			);
+			name = "HGCE OTGUITests";
+			productName = "HGCE OTGUITests";
+			productReference = 472053FB22BE8B9D00B780BF /* HGCE OTGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		472053D122BE8B9C00B780BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mayank Vadaliya";
+				TargetAttributes = {
+					472053D822BE8B9C00B780BF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					472053EF22BE8B9D00B780BF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 472053D822BE8B9C00B780BF;
+					};
+					472053FA22BE8B9D00B780BF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 472053D822BE8B9C00B780BF;
+					};
+				};
+			};
+			buildConfigurationList = 472053D422BE8B9C00B780BF /* Build configuration list for PBXProject "HGCE OTG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 472053D022BE8B9C00B780BF;
+			productRefGroup = 472053DA22BE8B9C00B780BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				472053D822BE8B9C00B780BF /* HGCE OTG */,
+				472053EF22BE8B9D00B780BF /* HGCE OTGTests */,
+				472053FA22BE8B9D00B780BF /* HGCE OTGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		472053D722BE8B9C00B780BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472053EA22BE8B9D00B780BF /* LaunchScreen.storyboard in Resources */,
+				472053E722BE8B9D00B780BF /* Assets.xcassets in Resources */,
+				472053E222BE8B9C00B780BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472053EE22BE8B9D00B780BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472053F922BE8B9D00B780BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C6AC034E3D50CB8894D9812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HGCE OTG/Pods-HGCE OTG-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCE OTG/Pods-HGCE OTG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760352ED02709351272E26E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGCE OTGTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85C632C96FBF793E5D7B933C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGCE OTG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CA946E28330F36988884E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGCE OTGUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		472053D522BE8B9C00B780BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470B5E2122C2034F0000DBEC /* libViewController.swift in Sources */,
+				472053DF22BE8B9C00B780BF /* ViewController.swift in Sources */,
+				47E9827F22BFA68600A53448 /* departTableViewCell.swift in Sources */,
+				470B5E2722C20CD50000DBEC /* conViewController.swift in Sources */,
+				470B5E2E22C21C010000DBEC /* videoViewController.swift in Sources */,
+				4720541022BE8D5F00B780BF /* MenuViewController.swift in Sources */,
+				47A7857222C334DA0024DF28 /* messageViewController.swift in Sources */,
+				47E9827D22BFA67500A53448 /* aboutdepartmentViewController.swift in Sources */,
+				4720540E22BE8CBD00B780BF /* BaseViewController.swift in Sources */,
+				470B5E3022C21C0B0000DBEC /* websiteViewController.swift in Sources */,
+				47A7857A22C337A00024DF28 /* CollectionViewCell.swift in Sources */,
+				472053DD22BE8B9C00B780BF /* AppDelegate.swift in Sources */,
+				470B5E2322C20B050000DBEC /* canViewController.swift in Sources */,
+				474B26AF22BEAC6900280F9C /* AboutcollegeViewController.swift in Sources */,
+				4720541222BE8E5C00B780BF /* menuTableViewCell.swift in Sources */,
+				472053E522BE8B9C00B780BF /* HGCE_OTG.xcdatamodeld in Sources */,
+				47A7857422C334E80024DF28 /* messageTableViewCell.swift in Sources */,
+				470B5E2522C20CC90000DBEC /* hosViewController.swift in Sources */,
+				47E9827B22BFA66900A53448 /* deparmentViewController.swift in Sources */,
+				47A7857822C337380024DF28 /* imageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472053EC22BE8B9D00B780BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472053F522BE8B9D00B780BF /* HGCE_OTGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472053F722BE8B9D00B780BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4720540022BE8B9D00B780BF /* HGCE_OTGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		472053F222BE8B9D00B780BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 472053D822BE8B9C00B780BF /* HGCE OTG */;
+			targetProxy = 472053F122BE8B9D00B780BF /* PBXContainerItemProxy */;
+		};
+		472053FD22BE8B9D00B780BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 472053D822BE8B9C00B780BF /* HGCE OTG */;
+			targetProxy = 472053FC22BE8B9D00B780BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		472053E022BE8B9C00B780BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472053E122BE8B9C00B780BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472053E822BE8B9D00B780BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472053E922BE8B9D00B780BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4720540222BE8B9D00B780BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4720540322BE8B9D00B780BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4720540522BE8B9D00B780BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4755A28D45D1A790DB60FDC /* Pods-HGCE OTG.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SU98TPB7SD;
+				INFOPLIST_FILE = "HGCE OTG/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HGCE-OTG.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4720540622BE8B9D00B780BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFD8A8069FCE65BF4B51702 /* Pods-HGCE OTG.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SU98TPB7SD;
+				INFOPLIST_FILE = "HGCE OTG/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HGCE-OTG.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4720540822BE8B9D00B780BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C754D886D2D2FCB2DD091153 /* Pods-HGCE OTGTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HGCE OTGTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "v.HGCE-OTGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGCE OTG.app/HGCE OTG";
+			};
+			name = Debug;
+		};
+		4720540922BE8B9D00B780BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597A3B2B4CDDA729EBB7C7CB /* Pods-HGCE OTGTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HGCE OTGTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "v.HGCE-OTGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGCE OTG.app/HGCE OTG";
+			};
+			name = Release;
+		};
+		4720540B22BE8B9D00B780BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38BC2B53B83D826A7117A0AD /* Pods-HGCE OTGUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HGCE OTGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "v.HGCE-OTGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HGCE OTG";
+			};
+			name = Debug;
+		};
+		4720540C22BE8B9D00B780BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2363763947C7E30536E3E0E7 /* Pods-HGCE OTGUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HGCE OTGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "v.HGCE-OTGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HGCE OTG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		472053D422BE8B9C00B780BF /* Build configuration list for PBXProject "HGCE OTG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4720540222BE8B9D00B780BF /* Debug */,
+				4720540322BE8B9D00B780BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4720540422BE8B9D00B780BF /* Build configuration list for PBXNativeTarget "HGCE OTG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4720540522BE8B9D00B780BF /* Debug */,
+				4720540622BE8B9D00B780BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4720540722BE8B9D00B780BF /* Build configuration list for PBXNativeTarget "HGCE OTGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4720540822BE8B9D00B780BF /* Debug */,
+				4720540922BE8B9D00B780BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4720540A22BE8B9D00B780BF /* Build configuration list for PBXNativeTarget "HGCE OTGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4720540B22BE8B9D00B780BF /* Debug */,
+				4720540C22BE8B9D00B780BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		472053E322BE8B9C00B780BF /* HGCE_OTG.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				472053E422BE8B9C00B780BF /* HGCE_OTG.xcdatamodel */,
+			);
+			currentVersion = 472053E422BE8B9C00B780BF /* HGCE_OTG.xcdatamodel */;
+			path = HGCE_OTG.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 472053D122BE8B9C00B780BF /* Project object */;
+}
